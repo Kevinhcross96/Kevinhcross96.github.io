@@ -4,3 +4,36 @@
 #form-body{
 	background-color: green;
 }
+#monsterlist{
+	border: solid;
+	border-color: black;
+	border-width: 5px;	
+	background-image: url(http://wallpapercave.com/wp/sYbUaoY.jpg)
+}
+.marginme{
+	margin: 10px;
+}
+#centerfoot{
+	text-align: center;
+}
+#excuses{
+	font-family: helvetica;
+	padding: 20px;
+}
+
+a:visited{
+	color: red;
+}
+
+a:link{
+	color:blue;
+}
+
+@media only screen and (max-width: 500px) {
+	#body-test{
+	font-size: 50%;
+	}
+	#form-body{
+	font-size: 50%;
+	}
+}
